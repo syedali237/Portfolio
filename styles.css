@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    background: #F5FFFA;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a img{
+    width: 70px;
+    margin-left: 50px;
+}
+
+.navbar-center ul{
+    margin-right: 200px;
+}
+
+.navbar-center ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-center ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-right: 5px;
+    margin: 5px 15px;
+    position: relative;
+}
+
+.navbar-center ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+
+.navbar-center ul li a:hover::after{
+    width: 100%;
+}
+
+/* <------------------------navbar-ends-----------------------> */
+
+.container{
+    display: flex;
+    align-items: center; 
+    margin: 100px 50px;
+}
+
+.info h1{
+    margin-left: 20px;
+}
+
+.info p{
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.profile img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
