@@ -27,7 +27,7 @@ a{
 }
 
 .navbar-center ul{
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .navbar-center ul li{
@@ -41,7 +41,7 @@ a{
     align-items: center;
     font-size: 1.5rem;
     padding-right: 5px;
-    margin: 5px 15px;
+    margin: 5px 20px;
     position: relative;
 }
 
@@ -49,9 +49,9 @@ a{
     content: '';
     width: 0;
     height: 2px;
-    background: black;
+    background: #7360DF;
     position: absolute;
-    bottom: -5px;
+    bottom: -6px;
     transition: width 0.3s;
 }
 
@@ -72,10 +72,17 @@ a{
     margin-left: 20px;
 }
 
-.info p{
+.name{
     font-size: 5rem;
+    font-weight: 900;
+    margin: 40px 20px;
+}
+
+.desc{
+    font-size: 2.5rem;
+    margin: 20px 20px 30px ;
+    color: #7360DF;
     font-weight: 600;
-    margin: 20px;
 }
 
 .profile img{
@@ -85,3 +92,20 @@ a{
     margin-left: 50%;
 }
 
+.btn1{
+    background: #F5FFFA ;
+    border: 3px solid #7360DF;
+    color: #7360DF;
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out;
+}
+
+.btn1:hover{
+    background: #7360DF;
+    color: #F5FFFA;
+    cursor: pointer;
+    transition-delay: 0.2s;
+}
