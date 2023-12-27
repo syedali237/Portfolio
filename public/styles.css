@@ -109,3 +109,9 @@ a{
     cursor: pointer;
     transition-delay: 0.2s;
 }
+
+.bio{
+    margin: 0px 20px 30px;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
