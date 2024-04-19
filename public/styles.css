@@ -55,6 +55,7 @@ a{
     transition: width 0.3s;
 }
 
+/* .navbar-center ul li a.active-link::after */
 
 .navbar-center ul li a:hover::after{
     width: 100%;
@@ -114,4 +115,77 @@ a{
     margin: 0px 20px 30px;
     font-size: 1.2rem;
     line-height: 1.5em;
+}
+
+
+/* -- ABOUT */
+.container2{
+    display: flex;
+    align-items: center; 
+    margin: 60px 50px;
+}
+
+#heading {
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    font-size: 8rem;
+}
+
+.info2 h1{
+    margin-left: 20px;
+}
+
+.mainArea {
+    display: flex;
+}
+
+.left {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.left {
+    margin-right: 50px; 
+}
+
+.right {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.left p {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: lighter;
+    text-align: justify;
+    color: rgb(60, 60, 60);
+}
+
+.line {
+    border-left: 2px solid #7360DF;
+}
+
+.right p{
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.right ul {
+    list-style: none; /* Remove default bullet points */
+}
+
+.right ul li:before {
+    content: "\2022"; 
+    color: #7360DF; 
+    font-size: 2rem; /* Make the bullet point bigger */
+    line-height: inherit;
+    display: inline-block;
+    width: 1em; 
+}
+
+.right li{
+    font-size: 1.3rem;
+    color: rgb(60, 60, 60);
 }
