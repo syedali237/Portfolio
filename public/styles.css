@@ -225,3 +225,25 @@ a{
     text-align: center;
     font-size: 1.5rem;
 }
+
+/* -----------------mainAreaConnect------------------------ */
+
+.mainAreaConnect p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 25%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.connectButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connectButtons #mailButton {
+    margin-right: 60px;
+}
+
